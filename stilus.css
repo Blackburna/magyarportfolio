@@ -33,22 +33,6 @@ body{
   border-right: 10px solid #CCCCCC;
   border-bottom: 10px solid #333333;
   border-left: 10px solid #CCCCCC;
-  background-image: url("kepek/kepecske.png");
-  background-size: 60%;
-  background-position: right;
-  background-repeat: no-repeat;
-}
-.digitalora {
-  color:#000000 ;
-  text-decoration: transparent;
-  font-family: 'Times New Roman', Times, serif;
-  position: absolute;
-  top: 50%;
-  left: 69.3%;
-  transform: translateX(-50%) translateY(-50%);
-  font-size: 40px;
-  letter-spacing: 7px;
-  cursor: default;
 }
 span{
   cursor: pointer;
