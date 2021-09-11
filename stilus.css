@@ -2,10 +2,12 @@ h3 {
   color: rgb(255, 255, 255);
   text-decoration: transparent;
   font-family: Papyrus;
+  cursor: default;
 }
 h1 {
   color: white;
   font-family: "Lucida Console", "Courier New", monospace;
+  cursor: default;
 }
 button {
   font: xx-large 11px Helvetica;
@@ -19,8 +21,64 @@ button {
   border-left: 1px solid #CCCCCC;
   
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.panel{
+  border-top: 10px solid #333333;
+  border-right: 10px solid #CCCCCC;
+  border-bottom: 10px solid #333333;
+  border-left: 10px solid #CCCCCC;
+  background-image: url("kepek/kepecske.png");
+  background-size: 60%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.clock {
+  color: rgb(255, 255, 255);
+  text-decoration: transparent;
+  font-family: Papyrus;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 45px;
+  letter-spacing: 7px;
+}
+span{
+  cursor: pointer;
+}
+a{
+  font: xx-large 11px Helvetica;
+  text-decoration: none;
+  background-color: #eeeeee00;
+  color: #000000;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #009688;
+  border-right: 1px solid #009688;
+  border-bottom: 1px solid #009688;
+  border-left: 1px solid #009688;
+}
 a:link, a:visited {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+}
+a:hover{
+  color: #009688;
+  text-decoration: none;
+  display: inline-block;
+}
+p{
+    color: #046e64;
+    font-weight: 200;
+    font-size: 130%;
+    text-shadow: 0px 0px #333333;
+    font-family: sans-serif;
+    margin-left: 10px;
+    cursor: default;
 }
