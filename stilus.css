@@ -38,16 +38,17 @@ body{
   background-position: right;
   background-repeat: no-repeat;
 }
-.clock {
-  color: rgb(255, 255, 255);
+.digitalora {
+  color:#000000 ;
   text-decoration: transparent;
-  font-family: Papyrus;
+  font-family: 'Times New Roman', Times, serif;
   position: absolute;
-  top: 13%;
-  left: 50%;
+  top: 50%;
+  left: 69.3%;
   transform: translateX(-50%) translateY(-50%);
-  font-size: 45px;
+  font-size: 40px;
   letter-spacing: 7px;
+  cursor: default;
 }
 span{
   cursor: pointer;
